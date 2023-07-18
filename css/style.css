@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  color: #f948b2;
+  font-size: 95px;
+  font-family: Work Sans;
+  font-weight: 800;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+h2 {
+  color: #0b0223;
+  font-size: 48px;
+  font-family: Work Sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+span {
+  color: #f948b2;
+  font-size: 48px;
+  font-family: Work Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+h4 {
+  color: #534c64;
+  font-size: 32px;
+  font-family: Work Sans;
+  font-weight: 700;
+  line-height: 45px;
+  word-wrap: break-word;
+}
+
+h5 {
+  color: #0b0223;
+  font-size: 20px;
+  font-family: Work Sans;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+p {
+  color: #534c64;
+  font-size: 18px;
+  font-family: Work Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.btn {
+  color: white;
+  font-size: 20px;
+  font-family: Work Sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  padding: 21px 40px 21px 40px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  border-radius: 48px;
+  border: none;
+}
+
+/* .container{
+    padding: 0 80px;
+} */
+/* header styles starts*/
+.header {
+}
+
+.header .container {
+  max-width: 1440px;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 37px 0;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+nav ul li a {
+  color: #3c354f;
+  font-size: 18px;
+  font-family: Work Sans;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.follow-us {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(11, 2, 35, 0.1);
+  border-radius: 8px;
+  padding: 10px 16px;
+}
+
+.nav-icon {
+  width: 34px;
+}
+/* header styles ends */
+
+/* banner styles starts*/
+.banner {
+}
+
+.banner .container {
+  max-width: 1440px;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  gap: 68px;
+  padding: 0 0 95px 0;
+}
+
+.single-icon {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.banner-btn-group {
+  padding-top: 41px;
+}
+.sign-in-btn {
+}
+
+.go-btn {
+  color: white;
+  font-size: 20px;
+  font-family: Work Sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  padding: 21px 40px 21px 40px;
+  background-color: #4ec5f7;
+  border-radius: 48px;
+  border: none;
+  margin-left: 18px;
+}
+
+.banner-img {
+  width: 100%;
+}
+/* banner styles ends*/
+
+/* gammer styles starts here */
+/* gammer styles ends here --> 
+
+/*online-games styles starts here*/
+.online-games {
+  padding-bottom: 120px;
+}
+.online-games-head {
+  text-align: center;
+}
+
+.online-games-head p {
+  padding: 10px 0 48px 0;
+}
+.online-games .container {
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+.games-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.card-image {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.play-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 28px;
+	color: #000;
+	background: #fff;
+	height: 55px;
+	width: 55px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.card:hover .play-icon {
+  opacity: 1;
+}
+
+.games-cards .card {
+  max-width: 342px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.games-img {
+  width: 100%;
+}
+/*online-games styles ends here*/
+
+/* play-instant styles starts here */
+.play-instant .container {
+  max-width: 1253px;
+  padding: 0 80px;
+  display: flex;
+  margin: 0 auto;
+  gap: 220px;
+}
+
+.play-instant-left {
+  max-width: 100%;
+  width: 341px;
+  padding-top: 172px;
+}
+
+.horse-img {
+  max-width: 100%;
+}
+
+.doll-img {
+  max-width: 100%;
+  width: 318.5px;
+  position: relative;
+  bottom: 254px;
+  right: 145px;
+}
+/* play-instant styles ends here */
+
