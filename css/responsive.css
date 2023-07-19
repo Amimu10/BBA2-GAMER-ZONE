@@ -1,0 +1,316 @@
+/* small devices */
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-top: 32px;
+  }
+
+  .nav-icon {
+    width: 18px;
+    margin-left: 12px;
+  }
+  .banner-content,
+  .play-instant-content {
+    flex-direction: column;
+  }
+
+  .banner-img {
+    max-width: 100%;
+  }
+
+  .banner-left {
+    max-width: 100%;
+  }
+
+  .banner-left h1 {
+    font-size: 52px;
+  }
+
+  .banner-left h2 {
+    font-size: 32px;
+  }
+
+  .banner-btn-group {
+    display: flex;
+    align-items: center;
+  }
+
+  .sign-in-btn,
+  .go-btn {
+    padding: 15px 30px 15px 28px;
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+
+  .gamers-content {
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .gamer-right {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .online-games-head p {
+    padding: 10px 0 34px 9px;
+  }
+  .online-games-head h2,
+  .play-instant-left h2,
+  span {
+    font-size: 32px;
+  }
+
+  .games-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .card {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .play-instant {
+    margin-top: -238px;
+  }
+
+  .play-instant-right,
+  .career-left {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .play-instant-left {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: -158px;
+  }
+
+  .doll-img {
+    max-width: 50%;
+    width: 321.5px;
+    position: relative;
+    bottom: 194px;
+    right: 59px;
+  }
+
+  .career {
+    margin-top: 45px;
+  }
+  .career-content {
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .career-head h2 {
+    margin-bottom: 18px;
+    font-size: 32px;
+  }
+
+  .play-option {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 8px;
+    padding-left: 15px;
+  }
+
+  .single-option {
+    max-width: 100%;
+    width: 112px;
+    margin: 0 auto;
+  }
+
+  .single-option:hover {
+    background: white;
+    border-radius: 50px;
+    border: 0.75px #ff42a5 solid;
+  }
+
+  .single-option h5 {
+    font-size: 12px;
+  }
+
+  .games-icon {
+    width: 18px;
+  }
+
+  .footer-content {
+    padding: 0 10px;
+  }
+
+  .footer-nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+    margin: 0 auto;
+    margin: 25px 0;
+  }
+
+  .footer-nav ul li a {
+    font-size: 14px;
+  }
+
+  .social-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  .footer-terms-policy ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-top: 32px;
+  }
+
+  .play-instant {
+    margin-top: -170px;
+  }
+
+  .play-instant-left {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .play-instant-right {
+    margin-top: -90px;
+  }
+
+  .games-icon {
+    max-width: 100px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .header .logo {
+    text-align: center;
+  }
+
+  .header .logo img {
+    max-width: 150px;
+  }
+
+  .header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header ul li {
+    margin-right: 20px;
+  }
+
+  .header .follow-us {
+    display: block;
+    text-align: center;
+  }
+
+  .banner-content {
+    flex-direction: column;
+  }
+
+  .banner-left h2,
+  .banner-left h1 {
+    text-align: center;
+  }
+
+  .banner-icon {
+    max-width: 70px;
+  }
+
+  .banner-btn-group {
+    text-align: center;
+  }
+  .gamers-content {
+    flex-direction: column;
+  }
+
+  .gamers-left img,
+  .gamer-right h2,
+  .gamer-right p,
+  .gamer-right button,
+  .gamer-right h6,
+  .gamer-right h4 {
+    text-align: center;
+  }
+
+  .online-games-head h2 {
+    text-align: center;
+  }
+
+  .games-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .play-instant-content {
+    flex-direction: column;
+  }
+
+  .play-instant-left h2 {
+    text-align: center;
+  }
+
+  .instant-img {
+    margin-bottom: 20px;
+  }
+  .career-content {
+    flex-direction: column;
+  }
+
+  .career-left p,
+  .career-left .career-text {
+    text-align: center;
+  }
+  .games-option .play-option {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-logo img {
+    max-width: 100px;
+  }
+
+  .footer-logo h3 {
+    text-align: center;
+  }
+
+  .footer-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-terms-policy ul {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .banner-btn-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .play-option{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

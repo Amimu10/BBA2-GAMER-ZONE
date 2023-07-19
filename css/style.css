@@ -62,7 +62,7 @@ h4 {
 
 h5 {
   color: #0b0223;
-  font-size: 20px;
+  font-size: 18px;
   font-family: Work Sans;
   font-weight: 600;
   word-wrap: break-word;
@@ -84,7 +84,7 @@ p {
   word-wrap: break-word;
 }
 
-.btn {
+.sign-in-btn, .know-more-btn {
   color: white;
   font-size: 20px;
   font-family: Work Sans;
@@ -170,8 +170,8 @@ nav ul li a {
 
 .banner-btn-group {
   padding-top: 41px;
-}
-.sign-in-btn {
+  display: flex;
+  gap: 7px;
 }
 
 .go-btn {
@@ -185,7 +185,7 @@ nav ul li a {
   background-color: #4ec5f7;
   border-radius: 48px;
   border: none;
-  margin-left: 18px;
+  
 }
 
 .banner-img {
@@ -218,8 +218,17 @@ nav ul li a {
   max-width: 520px;
 }
 
-.gamers .btn {
-	margin: 30px 0 12px 0;
+.gamer-right h2 {
+  color: #0b0223;
+  font-size: 48px;
+  font-family: Work Sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  margin-bottom: 24px;
+}
+.gamers button {
+	margin-top: 18px;
 }
 /* gammer styles ends here */
 
@@ -262,8 +271,8 @@ nav ul li a {
   font-size: 28px;
   color: #000;
   background: #fff;
-  height: 55px;
-  width: 55px;
+  height: 44px;
+  width: 44px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -283,6 +292,12 @@ nav ul li a {
   border-radius: 10px;
 }
 
+.games-img:hover{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%); 
+  border-radius: 16px; 
+  border: 2px #FF42A5 solid;
+
+}
 .games-img {
   width: 100%;
 }
@@ -297,11 +312,14 @@ nav ul li a {
 .play-instant .container {
   max-width: 1253px;
   padding: 0 80px;
-  display: flex;
   margin: 0 auto;
-  gap: 220px;
+  height: auto;
 }
 
+.play-instant-content{
+  display: flex;
+  gap: 220px;
+}
 .play-instant-left {
   max-width: 100%;
   width: 341px;
@@ -376,20 +394,22 @@ nav ul li a {
 }
 
 .play-option {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  padding-bottom: 65px;
-  gap: 8px;
+	align-items: center;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	margin: 0 auto;
+	gap: 15px;
 }
 
 .single-option {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin: 0 auto;
-  width: 240px;
-  max-width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin: 0 auto;
+	width: 228px;
+	margin-bottom: 35px;
 }
+
 .single-option:hover {
   background: white;
   border-radius: 50px;
@@ -397,13 +417,6 @@ nav ul li a {
   padding: 5px 5px;
 }
 
-.play-option-more {
-  max-width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin: 0 auto;
-  gap: 16px;
-}
 /* games-option styles ends */
 
 /* footer styles starts here */
@@ -488,3 +501,4 @@ nav ul li a {
   word-wrap: break-word;
 }
 /* footer styles ends here */
+
