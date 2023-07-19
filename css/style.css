@@ -97,9 +97,6 @@ p {
   border: none;
 }
 
-/* .container{
-    padding: 0 80px;
-} */
 /* header styles starts*/
 .header {
 }
@@ -146,9 +143,6 @@ nav ul li a {
 /* header styles ends */
 
 /* banner styles starts*/
-.banner {
-}
-
 .banner .container {
   max-width: 1440px;
   padding: 0 80px;
@@ -399,6 +393,7 @@ nav ul li a {
 	grid-template-columns: repeat(5, 1fr);
 	margin: 0 auto;
 	gap: 15px;
+
 }
 
 .single-option {
@@ -408,6 +403,7 @@ nav ul li a {
 	margin: 0 auto;
 	width: 228px;
 	margin-bottom: 35px;
+  
 }
 
 .single-option:hover {

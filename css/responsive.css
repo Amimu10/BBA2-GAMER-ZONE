@@ -199,11 +199,13 @@
   .games-icon {
     max-width: 100px;
   }
+  
   .games-cards{
-    max-width: 100%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
   }
-    
+
+ 
   }
   
 
