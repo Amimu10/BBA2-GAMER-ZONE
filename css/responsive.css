@@ -199,7 +199,14 @@
   .games-icon {
     max-width: 100px;
   }
-}
+  .games-cards{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+    
+  }
+  
+
 @media screen and (max-width: 960px) {
   .header .logo {
     text-align: center;
